@@ -9,8 +9,8 @@ The return for a majority of the stocks decreased drastically between 2017 and 2
 ### Script Refactoring
 After refactoring the script, the execution time dropped dramatically, going from around 0.8 sec to around 0.1 sec. The execution times for both 2017 and 2018 after refactoring can be seen below.
 
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/78883717/111848375-e9b1f700-88d8-11eb-8d6b-2d51abb1b408.png)
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/78883717/111848381-ee76ab00-88d8-11eb-8854-a6fe4198eed4.png)
+![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
 ## Summary
 ### Refactoring Code 
@@ -18,6 +18,6 @@ Although reusing and remodeling code which has already been written took more ti
 ### Original VBA Script vs. Refactored Script
 Refactoring the original script allowed for a better comparison of the different stock options. The original script focused on one stock, while the refactored code executed the same method of analysis on all stocks. This removed any potential instance of bias towards one stock or another, allowing for numbers which accurately depict each stock as it compares to the others. This comparison can be seen in the difference in variables present in the images of code below. One displays code for only DQ while the other displays code for all stocks.
 
-![DQ_Analysis](https://user-images.githubusercontent.com/78883717/111849399-837aa380-88db-11eb-90e4-9d47815e9707.png)
+![DQ_Analysis](Resources/DQ_Analysis.png)
 
-![All_Stocks_Analysis](https://user-images.githubusercontent.com/78883717/111849407-85446700-88db-11eb-82a1-43113a7c3a94.png)
+![All_Stocks_Analysis](Resources/All_Stocks_Analysis.png)
